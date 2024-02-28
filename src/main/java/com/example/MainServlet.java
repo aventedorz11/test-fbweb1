@@ -22,7 +22,7 @@ import javax.servlet.http.Part;
 @MultipartConfig
 public class MainServlet extends HttpServlet {
     // JDBC connection parameters
-    private static final String JDBC_URL = "jdbc:mysql://192.168.44.1332:3306/myDB";
+    private static final String JDBC_URL = "jdbc:mysql://192.168.44.132:3306/myDB";
     private static final String JDBC_USER = "mysql";
     private static final String JDBC_PASSWORD = "mysql";
 
